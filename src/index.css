@@ -1,0 +1,78 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Tajawal", Helvetica, Arial, sans-serif;
+}
+html {
+  --primary-color: #e0a3de;
+  --primary-color-02: #b854b5;
+  --secondary-color-01: #fbbd47;
+  --secondary-color-02: #feeecf;
+  --nav-bg: #f8f8f8;
+  --nav-bg-scrolled: #fff;
+  --nav-bg-shadow: 0 5px 10px rgba(0, 0, 0, 0.02);
+
+  --background-color: #f9f9f9;
+  --background-color-01: #f2f2f2;
+  --background-color-02: #f6f6f6;
+  --background-color-opacity: #f2f2f2e6;
+  /* Border */
+  --border-color: #e1e1e1;
+  --border-color-focus: #c5c5c5;
+  /* Buttons */
+  --button-color: #101010;
+  --button-color-opacity: #10101080;
+  --button-hover: #1010101a;
+  --button-hover-01: #2a2a2a;
+  --close-button-01:#df4c4c;
+  --close-button-02: #af1212;
+  /* Paragraphs */
+  --paragraph-color: #4a4a4a;
+  --paragraph-color-01: #7d7d7d;
+  --paragraph-color-02: #929292;
+
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-weight: 800;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 320px;
+  position: relative;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--button-color);
+  font-size: 1.4rem;
+}
+

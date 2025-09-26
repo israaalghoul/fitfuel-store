@@ -1,0 +1,29 @@
+.product-list-container {
+    padding: 15px 0px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+.loader-wrapper{
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+}
+.error{
+     display: flex;
+     justify-content: center;
+}
+.error p{
+    color: red; 
+    font-size: 2rem;
+}
+.no-data{
+      display: flex;
+     justify-content: center;   
+}
+.no-data p{
+     color: rgba(0, 0, 0, 1);
+     font-size: 2rem;
+}

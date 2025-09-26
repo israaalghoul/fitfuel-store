@@ -1,0 +1,40 @@
+.searchbar {
+  width: 100%;
+  flex-grow: 1;
+  max-width: 300px;
+
+  background: var(--nav-bg-scrolled);
+  padding: 1.2rem 1.6rem;
+  gap: 17px;
+  border: 1px solid var(--border-color);
+  font-size: 1.4rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+.searchbar-input,
+.searchbar-input:active,
+.searchbar-input:focus {
+  border: none;
+  outline: none;
+}
+.searchbar-input{
+      width: 100%;
+
+}
+.searchbar-input::placeholder {
+  color: var(--paragraph-color-02);
+}
+
+.searchbar button {
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #fff;
+}

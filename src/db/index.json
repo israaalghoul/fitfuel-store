@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Israa",
+      "age": 28
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "title": "Men’s Running Shoes",
+      "details": "Lightweight running shoes with air cushioning for shock absorption, ideal for paved roads and tracks.",
+      "shortDescription": "Comfortable running shoes",
+      "price": "99.99 $",
+      "image": "/public/images/Products/Shoes/shoes1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Men’s Running Shoes",
+      "details": "Lightweight running shoes with air cushioning for shock absorption, ideal for paved roads and tracks.",
+      "shortDescription": "Comfortable running shoes",
+      "price": "119.99 $",
+      "image": "/public/images/Products/Shoes/shoes2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "79.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Men’s Sports T-Shirt",
+      "details": "Moisture-wicking cotton sports t-shirt to keep you dry during intense workouts.",
+      "shortDescription": "Sweat-control t-shirt",
+      "price": "24.99 $",
+      "image": "/public/images/Products/T-Shirt/t-shirt1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Men’s Sports T-Shirt",
+      "details": "Stretchy lightweight t-shirt perfect for yoga, running, and everyday workouts.",
+      "shortDescription": "Flexible women’s t-shirt",
+      "price": "29.99 $",
+      "image": "/public/images/Products/T-Shirt/t-shirt2.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "39.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell2.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "34.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell3.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "499.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell4.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "49.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell5.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Men’s Running Shoes",
+      "details": "Lightweight running shoes with air cushioning for shock absorption, ideal for paved roads and tracks.",
+      "shortDescription": "Comfortable running shoes",
+      "price": "54.99 $",
+      "image": "/public/images/Products/Shoes/shoes3.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Men’s Running Shoes",
+      "details": "Lightweight running shoes with air cushioning for shock absorption, ideal for paved roads and tracks.",
+      "shortDescription": "Comfortable running shoes",
+      "price": "14.99 $",
+      "image": "/public/images/Products/Shoes/shoes4.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Gym Duffel Bag",
+      "details": "Water-resistant gym duffel bag with multiple compartments and breathable mesh pocket.",
+      "shortDescription": "Water-resistant gym bag",
+      "price": "199.99 $",
+      "image": "/public/images/Products/Bag/bag1.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Gym Duffel Bag",
+      "details": "Water-resistant gym duffel bag with multiple compartments and breathable mesh pocket.",
+      "shortDescription": "Water-resistant gym bag",
+      "price": "59.99 $",
+      "image": "/public/images/Products/Bag/bag2.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "39.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell6.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "89.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell7.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "12.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell8.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Men’s Running Shoes",
+      "details": "Lightweight running shoes with air cushioning for shock absorption, ideal for paved roads and tracks.",
+      "shortDescription": "Comfortable running shoes",
+      "price": "29.99 $",
+      "image": "/public/images/Products/Shoes/shoes5.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Dumbbell Set",
+      "details": "Rubber-coated weight set for home strength training and muscle building.",
+      "shortDescription": "Home dumbbell set",
+      "price": "69.99 $",
+      "image": "/public/images/Products/Dumbbell/dumbbell9.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Men’s Running Shoes",
+      "details": "Lightweight running shoes with air cushioning for shock absorption, ideal for paved roads and tracks.",
+      "shortDescription": "Comfortable running shoes",
+      "price": "9.99 $",
+      "image": "/public/images/Products/Shoes/shoes6.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Men’s Running Shoes",
+      "details": "Lightweight running shoes with air cushioning for shock absorption, ideal for paved roads and tracks.",
+      "shortDescription": "Comfortable running shoes",
+      "price": "24.99 $",
+      "image": "/public/images/Products/Shoes/shoes7.jpg"
+    }
+  ]
+}

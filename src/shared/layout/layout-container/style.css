@@ -1,0 +1,13 @@
+.app-continer {
+    box-sizing: border-box;
+    padding-top: var(--header-offset, 0);
+}
+
+
+section[id],
+header + section,
+.featured-section,
+.hero-section,
+.products-section {
+    scroll-margin-top: calc(var(--header-offset, 0) + 8px);
+}

@@ -1,0 +1,128 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(6px);
+  z-index: 1100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+nav {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.navigate-pages {
+  display: flex;
+  gap: 15px;
+}
+.navigate-pages__img {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.navigate-pages__img img {
+  width: 90px;
+}
+
+.navigate-pages__subList {
+  display: none;
+  margin: 16px 20px;
+  flex-wrap: wrap;
+}
+
+.navigate-pages__menu-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.navigate-pages__menu-btn img {
+  display: block;
+}
+
+.navigate-pages__subList li button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: var(--button-color-opacity);
+  font-size: 1.6rem;
+}
+.navigate-pages__subList li button:hover {
+  color: var(--button-color);
+  background: var(--background-color-opacity);
+  border-radius: 8px;
+}
+.navigate-pages__subList.open {
+  display: flex;
+  position: absolute;
+  top: 64px;
+  left: 8px;
+  right: 8px;
+  background: #fff;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding: 25px;
+}
+.nav-icons button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Tablet and up */
+@media (min-width: 640px) {
+  .navigate-pages__menu-btn {
+    display: none;
+  }
+  .navigate-pages__subList {
+    display: flex;
+    margin: 16px 20px;
+    flex-wrap: wrap;
+    position: static;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+  .navigate-pages__subList.open {
+    display: flex;
+  }
+  .nav-icons {
+    gap: 24px;
+    padding: 0;
+  }
+}
+
+/* Laptop and up */
+@media (min-width: 1024px) {
+  .navigate-pages__img img {
+    width: 110px;
+  }
+  nav {
+    padding: 12px 32px;
+  }
+}
