@@ -29,7 +29,7 @@ export function SearchInput() {
         <button id="button-click" className="search-button">
           <img
           className="searchbar-img"
-          src="/src/assets/images/search-alt-1-svgrepo-com.svg"
+          src="/public/images/icones/search-alt-1-svgrepo-com.svg"
           alt="search icon"
           width="17"
         />

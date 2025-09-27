@@ -35,7 +35,7 @@ export function Footer() {
             <li>
               <a href="#" className="external-icon">
                 Lifestyle
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
           </ul>
@@ -53,7 +53,7 @@ export function Footer() {
             <li>
               <a href="#" className="external-icon">
                 Student Offer
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
           </ul>
@@ -66,20 +66,20 @@ export function Footer() {
             <li>
               <a href="#" className="external-icon">
                 Email Support
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
             <li>
               <a href="#" className="external-icon">
                 Live Chat
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
             <li><a href="#">Phone Support</a></li>
             <li>
               <a href="#" className="external-icon">
                 Community
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
           </ul>
@@ -97,7 +97,7 @@ export function Footer() {
             <li>
               <a href="#" className="external-icon">
                 Rewards
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
           </ul>
@@ -112,14 +112,14 @@ export function Footer() {
             <li>
               <a href="#" className="external-icon">
                 Investors
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
 
             <li>
               <a href="#" className="external-icon">
                 About US
-                <img src="/src/assets/images/arrow.png" alt="icon" className="icon-img" />
+                <img src="/public/images/icones/arrow.png" alt="icon" className="icon-img" />
               </a>
             </li>
           </ul>

@@ -23,7 +23,7 @@ export function Navbar() {
             aria-label={menuOpen ? 'Close menu' : 'Open menu'}
             onClick={() => setMenuOpen((s) => !s)}
           >
-            <img src="/src/assets/images/menu-svgrepo-com.svg" alt="menu" width="22" />
+            <img src="/public/images/icones/menu-svgrepo-com.svg" alt="menu" width="22" />
           </button>
 
           {/* navigation links: hidden on mobile, visible on tablet+ or when menuOpen on mobile */}
@@ -50,7 +50,7 @@ export function Navbar() {
           <button type="button" className="nav-icons__fav" onClick={() => navigate(`${appRoutes.home}#favorites`)}>
             <img
               className="nav-icons__fav-img"
-              src="/src/assets/images/favorite-svgrepo-com.svg"
+              src="/public/images/icones/favorite-svgrepo-com.svg"
               alt="favorite icon"
               width="20"
             />
@@ -58,7 +58,7 @@ export function Navbar() {
           <button type="button" className="nav-icons__ptofile" onClick={() => navigate(appRoutes.auth.login)}>
             <img
               className="nav-icons__profile-img"
-              src="/src/assets/images/profile-1341-svgrepo-com.svg"
+              src="/public/images/icones/profile-1341-svgrepo-com.svg"
               alt="profile icon"
               width="20"
             />
