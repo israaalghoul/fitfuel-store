@@ -1,8 +1,11 @@
-import { useState } from 'react';
 import { SearchInput } from "../../../features/search/components/search-input";
+import profileImg from '/public/images/icons/profile-1341-svgrepo-com.svg';
 import CartBadge from "../../../features/badge/components/cart-badge";
+import favImg from '/public/images/icons/favorite-svgrepo-com.svg';
+import menuImg from '/public/images/icons/menu-svgrepo-com.svg';
 import { appRoutes } from "../../../routes";
 import { useNavigate } from "react-router";
+import { useState } from 'react';
 import "./style.css";
 
 export function Navbar() {
@@ -23,7 +26,7 @@ export function Navbar() {
             aria-label={menuOpen ? 'Close menu' : 'Open menu'}
             onClick={() => setMenuOpen((s) => !s)}
           >
-            <img src="/public/images/icones/menu-svgrepo-com.svg" alt="menu" width="22" />
+            <img src={menuImg} alt="menu" width="22" />
           </button>
 
           {/* navigation links: hidden on mobile, visible on tablet+ or when menuOpen on mobile */}
@@ -50,7 +53,7 @@ export function Navbar() {
           <button type="button" className="nav-icons__fav" onClick={() => navigate(`${appRoutes.home}#favorites`)}>
             <img
               className="nav-icons__fav-img"
-              src="/public/images/icones/favorite-svgrepo-com.svg"
+              src={favImg}
               alt="favorite icon"
               width="20"
             />
@@ -58,7 +61,7 @@ export function Navbar() {
           <button type="button" className="nav-icons__ptofile" onClick={() => navigate(appRoutes.auth.login)}>
             <img
               className="nav-icons__profile-img"
-              src="/public/images/icones/profile-1341-svgrepo-com.svg"
+              src={profileImg}
               alt="profile icon"
               width="20"
             />

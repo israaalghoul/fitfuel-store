@@ -1,4 +1,5 @@
 import { useCart } from '../../../products/store/cart';
+import cartImg from "/public/images/icons/cart.svg";
 import "./style.css";
 
 export default function CartBadge() {
@@ -7,7 +8,7 @@ export default function CartBadge() {
 
   return (
     <button className="cart-badge" onClick={openCart} style={{ position: 'relative' }}>
-      <img src="/public/images/icones/cart-svgrepo-com.svg" alt="Cart" width="24" />
+      <img src={cartImg} alt="Cart" width="24" />
         <span className="cart-badge-count">
           {count}
         </span>

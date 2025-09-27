@@ -1,4 +1,5 @@
 import { debounce } from '../../../../shared/utilities/debounce';
+import searchImg from '/public/images/icons/search-alt-1-svgrepo-com.svg'
 import { useSearchParams } from 'react-router';
 import { useState } from 'react';
 import "./style.css";
@@ -29,7 +30,7 @@ export function SearchInput() {
         <button id="button-click" className="search-button">
           <img
           className="searchbar-img"
-          src="/public/images/icones/search-alt-1-svgrepo-com.svg"
+          src={searchImg}
           alt="search icon"
           width="17"
         />

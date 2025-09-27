@@ -1,3 +1,6 @@
+import decreaseImg from '/public/images/icons/decrease-icon-svgrepo-com.svg';
+import increaseImg from '/public/images/icons/add-svgrepo-com.svg';
+import closeImg from '/public/images/icons/close-svgrepo-com.svg';
 import { useCart } from "../../../features/products/store/cart";
 import { Btn } from "../../components/btn";
 import "./style.css";
@@ -21,7 +24,7 @@ export default function CartSidebar() {
       <aside className="cart-sidebar">
       <div className="cart-sidebar-header">
         <h2>Shopping Cart</h2>
-        <Btn classNameBtn={"btn btn-close"}  onClick={closeCart} btnName={<img src="/public/images/icones/close-svgrepo-com.svg" alt="close icon" width="15" />} />
+        <Btn classNameBtn={"btn btn-close"}  onClick={closeCart} btnName={<img src={closeImg} alt="close icon" width="15" />} />
       </div>
 
       {cart.length === 0 ? (
@@ -38,9 +41,9 @@ export default function CartSidebar() {
                     <h3>{item.name}</h3>
                   </div>
                   <div className="control-product">
-                    <Btn classNameBtn={'btn'} onClick={() => decreaseQty(item.id)} btnName={<img src="/public/images/icones/decrease-icon-svgrepo-com.svg" alt="close icon" width="10" />}/>
+                    <Btn classNameBtn={'btn'} onClick={() => decreaseQty(item.id)} btnName={<img src={decreaseImg} alt="close icon" width="10" />}/>
                     <span>{item.quantity}</span>
-                    <Btn classNameBtn={'btn'} onClick={() => increaseQty(item.id)} btnName={ <img src="/public/images/icones/add-svgrepo-com.svg" alt="close icon" width="15" />}/>
+                    <Btn classNameBtn={'btn'} onClick={() => increaseQty(item.id)} btnName={ <img src={increaseImg} alt="close icon" width="15" />}/>
                     <div className="price-item">
                       Price: {(() => {
                         const priceNum = Number(item.price.replace(/[^\d.]/g, ""));
@@ -49,7 +52,7 @@ export default function CartSidebar() {
                         return typeof total === 'number' ? `${total} $` : item.price;
                       })()}
                     </div>
-                    <Btn classNameBtn={"btn btn-remove"}  onClick={() => removeFromCart(item.id)} btnName={<img src="/public/images/icones/close-svgrepo-com.svg" alt="close icon" width="15" />} />
+                    <Btn classNameBtn={"btn btn-remove"}  onClick={() => removeFromCart(item.id)} btnName={<img src={closeImg} alt="close icon" width="15" />} />
 
                       
                   </div>
